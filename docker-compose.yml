@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  user-service:
+    image: mydockerhubuser/user-service:latest
+    ports:
+      - "3000:3000"
+
+  product-service:
+    image: mydockerhubuser/product-service:latest
+    ports:
+      - "3001:3001"
+
+  order-service:
+    image: mydockerhubuser/order-service:latest
+    ports:
+      - "3002:3002"
