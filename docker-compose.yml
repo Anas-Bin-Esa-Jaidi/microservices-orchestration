@@ -1,16 +1,16 @@
 version: "3.8"
 services:
   user-service:
-    image: mydockerhubuser/user-service:latest
+    image: anasbinesa275/user-service:dev
     ports:
       - "3000:3000"
 
   product-service:
-    image: mydockerhubuser/product-service:latest
+    image: anasbinesa275/product-service:dev
     ports:
       - "3001:3001"
 
   order-service:
-    image: mydockerhubuser/order-service:latest
+    image: anasbinesa275/order-service:dev
     ports:
       - "3002:3002"
